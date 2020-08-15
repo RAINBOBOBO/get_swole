@@ -96,7 +96,8 @@ def signup():
 
         do_login(user)
 
-        return redirect("/")
+        return redirect('/')
 
     else:
         return render_template('users/signup.html', form=form)
+        
