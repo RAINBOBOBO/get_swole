@@ -35,7 +35,7 @@ class User(db.Model):
 
     image_url = db.Column(
         db.Text,
-        default="/static/images/default-pic.png",
+        default='/static/images/default-pic.png',
     )
 
     @classmethod
